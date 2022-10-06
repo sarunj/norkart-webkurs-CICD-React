@@ -9,6 +9,15 @@ const menuStyle = {
   display: "flex",
 };
 
+const menuStyle2 = {
+  position: "absolute",
+  background: "white",
+  padding: 20,
+  zIndex: "2",
+  top: "10vh",
+  display: "flex",
+};
+
 const locations = [
   { center: [10.674706290112326, 59.92544400487645], name: "Skøyen" },
   { center: [10.408773, 63.422091], name: "Trondheim" },
@@ -43,6 +52,8 @@ const LocationMenu = (props) => {
             </div>
           ))}
         </div>
+
+       
       ) : (
         <></>
       )}
